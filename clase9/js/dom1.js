@@ -35,4 +35,4 @@ else {
     saludo.innerHTML = 'Lamentamos que no quieras continuar con tu visita.'
 }
 
-
+//Me quede en el punto e. .
