@@ -21,12 +21,14 @@ if (resultado) {
     //e.
     let mensaje_3 = 'Cuantos años tenes?'
     let edad = prompt(mensaje_3);
+    let container = document.querySelector('.container-general')
+
 
     if (edad > 17) {
-
+        
     } else {
-        document.querySelector('h1').style.display = 'none';
-        document.querySelector('h2').style.display = 'none' ;
+        container.style.display = 'none' //Hace que desaparezca una
+        denegado.style.display = 'block' //Hace que aparezca la otra
     }
 } 
 
