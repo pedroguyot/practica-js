@@ -12,10 +12,10 @@ window.onload = function() {
 
             for (let i = 0; i < data.results.length; i++) {
                 personaje = data.results[i];
-                characters += `
+                characters +=`
                     <article>
                         <img src="${personaje.image}" alt="${personaje.name}">
-                        <p>Name: ${personaje.name}</p>
+                        <a href="clase10/detalle.html?id=${personaje.id}">${personaje.name}</a>
                         <p>Status: ${personaje.status}</p>
                     </article>
                 `;
